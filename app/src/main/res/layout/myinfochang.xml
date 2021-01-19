@@ -1,0 +1,144 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+
+            <ImageView
+                android:id="@+id/pic"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/unnamed" />
+
+            <TextView
+                android:id="@+id/infoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="96dp"
+                android:layout_toEndOf="@+id/pic"
+                android:layout_weight="1"
+                android:text="홍길동님"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/infoType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="69dp"
+                android:layout_marginBottom="42dp"
+                android:layout_toEndOf="@+id/pic"
+                android:layout_weight="1"
+                android:text="지적장애"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/infoGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginEnd="67dp"
+                android:layout_marginBottom="42dp"
+                android:layout_toEndOf="@+id/infoType"
+                android:text="3급"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/infoCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="96dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/pic"
+                android:layout_weight="1"
+                android:text="2000CC"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="8">
+
+        <Button
+            android:id="@+id/developerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d1d1d6"
+            android:padding="10dp"
+            android:text="개발자 정보"
+            android:textColor="#000000"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#00FFFFFF">
+
+        <Button
+            android:id="@+id/mapBtn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style2"
+            android:textColor="#000000"
+            android:text="MAP"
+            android:textSize="30sp" />
+
+        <Button
+            android:id = "@+id/beneBtn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style2"
+            android:textColor="#000000"
+            android:text="혜택"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/myInfoBtn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style2"
+            android:textColor="#000000"
+            android:text="내정보"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

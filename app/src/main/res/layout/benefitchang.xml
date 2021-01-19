@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#d1d1d6"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="놓치기 쉬운 혜택! "
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bene1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style"
+            android:text="장애인 차량 취득세 및 자동차세 감면"
+            android:textColor="#514D4D"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bene2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style"
+            android:text="장애인 무료 운전 연수"
+            android:textColor="#514D4D"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bene3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style"
+            android:text="고속도로 통행료 50% 할인"
+            android:textColor="#514D4D"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bene4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style"
+            android:text="장애인 자동차 검사 수수료 할인"
+            android:textColor="#514D4D"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bene5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style"
+            android:text="환경개선부담금 감면"
+            android:textColor="#514D4D"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bene6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style"
+            android:text="자동차분건강보험료전액면제"
+            android:textColor="#514D4D"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bene7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style"
+            android:text="승용자동차 LPG 연료사용 허용"
+            android:textColor="#514D4D"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#FFFFFF">
+
+        <Button
+            android:id="@+id/mapBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style2"
+            android:text="MAP"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/beneBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style2"
+            android:text="혜택"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/myInfoBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style2"
+            android:text="내정보"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

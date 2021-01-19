@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_gravity="center"
+        android:background="#d1d1d6"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="서비스 이용을 위한 정보 입력"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/type"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/name"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="100dp"
+        android:background="#505050" />
+
+    <TextView
+        android:id="@+id/nametag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="214dp"
+        android:text="이름(닉네임)"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/typetag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nametag"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="73dp"
+        android:text="장애 종류"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/gradetag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/typetag"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="73dp"
+        android:text="장애 급수"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/displacementtag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gradetag"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="73dp"
+        android:text="배기량"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/displacement"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/grade"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="101dp"
+        android:background="#505050"
+        android:hint="2000"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/grade"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/type"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="101dp"
+        android:background="#505050" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="200dp"
+        android:background="#505050"
+        android:hint="홍길동"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/btn_style2"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="시작하기"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>

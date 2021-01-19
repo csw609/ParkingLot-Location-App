@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFEFE"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RatingBar
+                android:id="@+id/review_rating"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="25dp"
+                android:layout_toStartOf="@+id/reviewSend"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:rating="5"
+                android:stepSize="0.5" />
+
+            <EditText
+                android:id="@+id/reviewEDT"
+                android:layout_width="295dp"
+                android:layout_height="151dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/reviewSend"
+                android:layout_width="wrap_content"
+                android:layout_height="197dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/reviewEDT"
+                android:background="@drawable/btn_style2"
+                android:text="후기 작성" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <ListView
+            android:id="@+id/reviewView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
